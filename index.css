@@ -1,0 +1,48 @@
+#ContainDiv{
+    border: 1px solid silver;
+    background-color: lightblue;
+    font-size: 18px;
+    text-align: center;
+    width: 450px;
+    border-radius: 5px;
+}
+.mydiv{
+    border: 1px solid silver;  
+    height: 30px;
+    width: 81px; 
+    text-align: center;
+    background-color: grey;
+    margin: 3px;
+    padding-top: 8px;
+    cursor: pointer;
+    border-radius: 7px;
+}
+
+.mydiv:hover{
+    background-color: black;
+    color: white;
+}
+
+#monitor{
+    color: #fff;
+    font-size: 35px;
+    text-align: left;
+    width: 430px;
+    background-color: black;
+    height: 60px;
+    margin: 8px;
+}
+
+.but1{
+    width: 83px;
+    height: 40px;
+    margin: 3px;
+    padding-top: 8px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.but1:hover{
+    background-color: navy;
+    color: white;
+}
