@@ -94,6 +94,7 @@ function clearMonitor(){
 function delete_Last_char(){
     monitorSTR = monitor.innerHTML
     monitorSTR = monitorSTR.substring(0,monitorSTR.length-1)
+    result = result.substring(0,result.length-1)
     monitor.innerHTML = monitorSTR
 }
 

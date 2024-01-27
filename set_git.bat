@@ -6,7 +6,7 @@
 
 git init
 git add .
-git commit -m "change backgroundColor commit"
+git commit -m "fix calculate commit"
 git branch -M main
 git remote add origin https://github.com/RonenZeyan/webLAB2.git
 git push -u origin main
