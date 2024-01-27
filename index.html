@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="index.css">
-    <title>LAB1 CALCULATOR</title>
+    <title>LAB2 CALCULATOR</title>
 
 </head>
 <body>
@@ -13,11 +13,11 @@
         <div id="monitor">
         </div>
         <div>
-            <div class="mydiv" style="float: left;">MC</div>
-            <div class="mydiv" style="float: left;">MR</div>
-            <div class="mydiv" style="float: left;">M+</div>
-            <div class="mydiv" style="float: left;">M-</div>
-            <div class="mydiv" style="float: left;">MS</div>
+            <div onclick="Not_implemented()" class="mydiv" style="float: left;">MC</div>
+            <div onclick="Not_implemented()" class="mydiv" style="float: left;">MR</div>
+            <div onclick="Not_implemented()" class="mydiv" style="float: left;">M+</div>
+            <div onclick="Not_implemented()" class="mydiv" style="float: left;">M-</div>
+            <div onclick="Not_implemented()" class="mydiv" style="float: left;">MS</div>
             <div style="clear: both;"></div>
         </div>
         <div>
@@ -32,7 +32,7 @@
             <div onclick="addCharToMonitor('^2')" class="mydiv" style="float: left;">x<sup>2</sup></div>
             <div onclick="addCharToMonitor('1/')" class="mydiv" style="float: left;">1/x</div>
             <div onclick="addCharToMonitor('abs')" class="mydiv" style="float: left;">|x|</div>
-            <div class="mydiv" style="float: left;">exp</div>
+            <div onclick="addCharToMonitor('exp')"  class="mydiv" style="float: left;">exp</div>
             <div onclick="addCharToMonitor('mod')" class="mydiv" style="float: left;">mod</div>
             <div style="clear: both;"></div>
         </div>
@@ -74,10 +74,6 @@
             <div onclick="addCharToMonitor('0')" class="mydiv" style="float: left;">0</div>
             <div onclick="addCharToMonitor('.')" class="mydiv" style="float: left;">.</div>
             <button onclick="calculateResult()" class="but1" style="float: left;">=</button>
-            <div style="clear: both;"></div>
-        </div>
-        <div>
-
             <div style="clear: both;"></div>
         </div>
    </div>
