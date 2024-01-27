@@ -30,6 +30,11 @@ function addCharToMonitor(x){
     result = Math.pow(10,result)
     calculateResult()
  }
+ else if(x=='^')
+ {
+   result+=x
+   flag='^'
+ }
  else if(x=='abs')
  {
     result = Math.abs(result)
@@ -94,7 +99,24 @@ function calculateResult(){
         previousNum=0
         nextNum=0
     }
+    if(flag=='^')
+    {
+        flag=''
+        let start
+        start = result.indexOf('^')
+        nextNum=result.substring(0,start)
+        previousNum=result.slice(start+1,result.length)
+        result = Math.pow(nextNum,previousNum)
+        previousNum=0
+        nextNum=0
+    }
+
+    try{
     lastResult = eval(result)
     result=lastResult
+    }catch(error){
+      result='Syntax Error'
+      lastResult='Syntax Error'
+    }
     monitor.innerHTML = lastResult
 }
