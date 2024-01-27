@@ -11,11 +11,15 @@
     height: 30px;
     width: 81px; 
     text-align: center;
-    background-color: grey;
+    background-color: rgb(153, 153, 153);
     margin: 1px 3px;
     padding-top: 8px;
     cursor: pointer;
     border-radius: 7px;
+}
+
+.numdiv{
+    background-color: rgb(180, 180, 180)
 }
 
 .mydiv:hover{
@@ -32,7 +36,8 @@
     height: 60px;
     margin: 8px;
     padding-top: 12px;
-    padding-left: 8px;
+    padding-left: 4px;
+    border-radius: 8px;
 }
 
 .but1{
@@ -48,6 +53,6 @@
 }
 
 .but1:hover{
-    background-color: navy;
+    background-color: rgb(88, 88, 245);
     color: white;
 }
